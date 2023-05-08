@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResultCard</title>
+</head>
+<body>
+    <H1>Hello World</H1>
+
+
+
+
+
+    <script>
+        let  English , Urdu , Maths , Computer , Science , Obtained , Percentage , Total 
+        Total = 500
+        English = 39
+        Urdu = 40
+        Maths = 49
+        Computer = 26
+        Science = 49
+        Obtained = English + Urdu + Maths + Computer + Science ;
+        Percentage = (Obtained/Total) * 100;
+        console.log(Percentage + '%')
+        if(Percentage > 90) {
+            console.log('Student have Grade A+')
+        }else if (Percentage > 80){
+            console.log('Student have Grade A')
+        }else if (Percentage > 70){
+            console.log('Student Have Grade B+')
+        }else if (Percentage > 60){
+            console.log('Student have Grade B')
+        }else if (Percentage > 50){
+            console.log('Student have Grade C+')
+        }else if(Percentage > 45){
+            console.log('Studen Have Grade C')
+        }else if (Percentage > 40){
+            console.log('Student have Grage E')
+        }else{
+            console.log('Student Have Grade F')
+        }
+          
+    </script>
+</body>
+</html>
